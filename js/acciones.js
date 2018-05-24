@@ -8,7 +8,7 @@ $(document).ready(function(e) {
 });
 
 $('#derecha').on("swiperight",function(){
-	navigator.notificaton. confirm("¿Que quieres hacer?",function(op){
+	navigator.notification. confirm("¿Que quieres hacer?",function(op){
 		switch(op)
 		{
 			case 1:
