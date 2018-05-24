@@ -1,4 +1,4 @@
-// JavaScript Document
+﻿// JavaScript Document
 
 $(document).ready(function(e) {
 	document.addEventListener("deviceready",function(){
@@ -7,7 +7,7 @@ $(document).ready(function(e) {
 			navigator.notification. alert("Deslizo a la izquierda",function(){"Apicacion7","Aceptar"});
 });
 
-$('#derecha').on("seiperight",function(){
+$('#derecha').on("swiperight",function(){
 	navigator.notificaton. confirm("¿Que quieres hacer?",function(op){
 		switch(op)
 		{
